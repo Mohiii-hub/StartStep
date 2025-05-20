@@ -1,11 +1,9 @@
-let zehler = 0;
-const Zahlbutton = document.getElementById("Zahlbutton");
+let zehler = localStorage.getItem("besucherZehler");
+const besucherZehler = document.getElementById("bezucherZehler");
 const Zahl = document.getElementById("zahl");
-Zahlbutton.onclick = function(){
-    zehler++;
-    Zahl.innerText = zehler;
-
-};
+zehler++;
+localStorage.setItem("besucherZehler",zehler);
+besucherZehler.innerText = zehler;
 
 const FarbeWechseln = document.getElementById("Farbe");
 FarbeWechseln.onclick = function(){
