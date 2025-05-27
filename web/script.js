@@ -1,5 +1,5 @@
 let zehler = localStorage.getItem("besucherZehler");
-const besucherZehler = document.getElementById("bezucherZehler");
+const besucherZehler = document.getElementById("besucherZehler");
 const Zahl = document.getElementById("zahl");
 zehler++;
 localStorage.setItem("besucherZehler",zehler);
