@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Barlow Condensed", sans-serif;
     /* background-color: rgb(232, 83, 14);*/
 }
 
@@ -8,7 +8,11 @@ body {
     background-color: rgb(232, 83, 14);
 
 }
-
+button{
+    background-color: aquamarine;
+    border:none;
+    padding:2px 2px;
+}
 @media screen and (max-width:800px) {
     p {
         margin-left: 50px;
